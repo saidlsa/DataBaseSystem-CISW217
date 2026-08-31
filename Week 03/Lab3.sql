@@ -126,7 +126,7 @@
 -- I need to find games with a rating of 9.0 or higher, for PC only, sorted by release date from newest to oldest. --
 
 -- QUERY 
-    SELECT title, release_year, rating, platform
+    SELECT title, rating, platform, release_year
     FROM games
     WHERE rating >= 9.0 AND platform ='PC'
     ORDER BY release_year DESC;
