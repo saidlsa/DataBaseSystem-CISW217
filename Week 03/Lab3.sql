@@ -123,7 +123,7 @@
 
 --Task 20
 
--- I need to find games with a rating of 9.0 or higher, for PC only, sorted by release date from newest to oldest.
+-- I need to find games with a rating of 9.0 or higher, for PC only, sorted by release date from newest to oldest. --
 
 -- QUERY 
     SELECT title, release_year, rating, platform
