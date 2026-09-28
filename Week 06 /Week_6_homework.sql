@@ -1,5 +1,5 @@
 ---------------------------
---Week 5 HomeWork
+--Week 6 HomeWork
 --Name: Said Querevalu
 ---------------------------
 
