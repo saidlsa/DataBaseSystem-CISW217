@@ -32,6 +32,6 @@
 -- create view product_summary AS
 -- SELECT category, 
 -- ROUND(AVG(price), 2) AS avg_price,
--- SUM(Stock) AS total_stock
+-- SUM("Stock") AS total_stock
 -- FROM products
 -- GROUP BY category;
