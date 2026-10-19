@@ -35,3 +35,29 @@
 -- SUM("Stock") AS total_stock
 -- FROM products
 -- GROUP BY category;
+
+--Views just create a shortcut, we can use it later as long as we call the view
+-- SELECT * from product_summary;
+--AS
+
+
+--To delete view
+--DROP VIEW "Name of view" --dont need quotes
+--Why use views?
+--Simplify long queries
+--Avoid retyping code
+--Create consistent reporting tables
+--Restrict user access (Views can hide columns)
+
+
+-- create view view_products AS 
+-- SELECT 
+-- 	UPPER("Name") as product_name,
+-- 	LOWER(description) as product_description,
+-- 	ROUND(price,2) AS round_price 
+-- FROM products
+-- WHERE price > 200
+
+
+-- SELECT * from view_products;
+
